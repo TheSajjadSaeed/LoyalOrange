@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LoyalOrange</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>LoyalOrange</h1> 
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- About -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About LoyalOrange</h2><br>
+      <h4>This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.This is Sample Page.</h4><br>
+      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us .</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Sialkot, PK</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +92 308 64 10 217</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> cb8882@gmail.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Landing Page Designed by: <a href="https://github.com/TheSajjadSaeed/LoyalOrange" title="LoyalOrange">LoyalOrange</a></p>
+</footer>
+
+
+</body>
+</html>
